@@ -17,9 +17,9 @@ pages:
     slug: second-project
     url: https://docs.google.com/document/d/1j_EUtS-OaZseWZkc8BLNHFK6OJANp9qw4jYLV0hA38k/edit?usp=sharing 
   - type: html
-    title: this is the third project test
+    title: Here's how I'm working on some preliminary data cleaning for my Master's Project
     slug: third-project
-    filepath: content/sample-page.html
+    filepath: /Users/mahiradayal/graphics/portfolio/bank_sample.html
   - type: html
     title: this is the third project
     template: html_bootstrap
