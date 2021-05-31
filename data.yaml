@@ -21,7 +21,7 @@ pages:
     slug: third-project
     filepath: /Users/mahiradayal/graphics/portfolio/bank_sample.html
   - type: html
-    title: this is the third project
+    title: Radar Charts describing Superbowl ads
     template: html_bootstrap
     slug: yet-another-project
-    filepath: content/sample-page.html
+    filepath: /Users/mahiradayal/graphics/portfolio/super bowl radar.html
