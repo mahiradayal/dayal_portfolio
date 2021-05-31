@@ -12,16 +12,16 @@ pages:
     title: Yahoo — How America's teachers are battling classroom violence
     slug: first-project
     url: https://docs.google.com/document/d/1g4HNVqEuMLMV1c8hrbzKsB4qYakW-tcgGD0D971qzYI/edit?usp=sharing 
-  - type: gdoc
-    title: Columbia Journalism School — Inaccessible legal services made it harder for domestic violence survivors to get help during the pandemic
-    slug: second-project
-    url: https://docs.google.com/document/d/1j_EUtS-OaZseWZkc8BLNHFK6OJANp9qw4jYLV0hA38k/edit?usp=sharing 
   - type: html
-    title: Here's how I'm working on some preliminary data cleaning for my Master's Project
+    title: CJS - Here's how I'm working on some preliminary data cleaning for my Master's Project
     slug: third-project
     filepath: /Users/mahiradayal/graphics/portfolio/bank_sample.html
   - type: html
-    title: Radar Charts describing Superbowl ads
+    title: CJS - Radar Charts describing Superbowl ads
     template: html_bootstrap
     slug: yet-another-project
     filepath: /Users/mahiradayal/graphics/portfolio/super bowl radar.html
+  - type: gdoc
+    title: CJS — Inaccessible legal services made it harder for domestic violence survivors to get help during the pandemic
+    slug: second-project
+    url: https://docs.google.com/document/d/1j_EUtS-OaZseWZkc8BLNHFK6OJANp9qw4jYLV0hA38k/edit?usp=sharing 
