@@ -77,7 +77,7 @@ sub-font
 }
 
 .sub-font, p, ul, li {
-    font-family: 'Lora', serif;
+    font-family: 'Georgia', serif;
 }
 
 .headline, h1 {
