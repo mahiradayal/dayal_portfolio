@@ -1,2 +1,2 @@
-### https://mahiradayal.github.io/dayal_portfolio/
+### https://mahiradayal.github.io/portfolio/
  
