@@ -33,7 +33,7 @@
   </style>
   <body class="light-theme">
     <div class="container homepage"><!-- start of the main container-->
-        <div class="row justify-content-center"><!-- headline and intro -->
+        <div class="row justify-content-left"><!-- headline and intro -->
             <div class="col-lg-10 ">
                 <h1 class="headline sub-font">{{name}}</h1>
                 <div class="sub-font body-text">
@@ -46,7 +46,7 @@
     
                     {{#each pages}}
                     <div class='story'>
-                        <h2 class="subhead sub-font"><a href="{{ this.slug }}/">{{ this.title }}</a></h2>
+                        <p class="sub-font body-text"><a href="{{ this.slug }}/">{{ this.title }}</a></p>
                     </div>
                     {{/each}}
                 </div>
