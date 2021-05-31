@@ -1,0 +1,27 @@
+name: Mahira Dayal
+bio: I'm a data journalist at Columbia Journalism School
+links:
+  - target: mailto:md3936@columbia.edu
+    text: 📧 E-mail
+  - target: https://www.linkedin.com/in/mahirad/
+    text: 🏠 LinkedIn
+  - target: https://twitter.com/mahiradayal
+    text: '@mahiradayal'
+pages:
+  - type: gdoc
+    title: Yahoo — How America's teachers are battling classroom violence
+    slug: first-project
+    url: https://docs.google.com/document/d/1g4HNVqEuMLMV1c8hrbzKsB4qYakW-tcgGD0D971qzYI/edit?usp=sharing 
+  - type: gdoc
+    title: Columbia Journalism School — Inaccessible legal services made it harder for domestic violence survivors to get help during the pandemic
+    slug: second-project
+    url: https://docs.google.com/document/d/1j_EUtS-OaZseWZkc8BLNHFK6OJANp9qw4jYLV0hA38k/edit?usp=sharing 
+  - type: html
+    title: this is the third project test
+    slug: third-project
+    filepath: content/sample-page.html
+  - type: html
+    title: this is the third project
+    template: html_bootstrap
+    slug: yet-another-project
+    filepath: content/sample-page.html
