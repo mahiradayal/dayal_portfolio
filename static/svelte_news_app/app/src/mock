@@ -1,0 +1,45 @@
+<script>
+	import schools from './schools.json';
+	// Tried this a bunch of times, and with ./schools.json but getting errors. npm install @rollup/plugin-json --save-dev
+	// let schoolName;
+	let selectedSchool;
+</script>
+
+<main>
+	{#if selectedSchool}
+		<p><a on:click={() => selectedSchool = null} href='#'>Return to list</a></p>
+		<h1>Name is {selectedSchool.SCHOOLNAME}</h1>
+		<h2>The education level is {selectedSchool.SCH_TYPE}</h2>
+	{:else}
+	<ul>
+		<h3> School List — Select a School</h3>
+		{#each schools as school}
+			<li on:click={() => selectedSchool = school}>{school.SCHOOLNAME}</li>
+		{/each}
+	</ul>
+    {/if}
+	
+	
+</main>
+
+<style>
+	main {
+		text-align: center;
+		padding: 1em;
+		max-width: 240px;
+		margin: 0 auto;
+	}
+
+	h1 {
+		color: #ff3e00;
+		text-transform: uppercase;
+		font-size: 4em;
+		font-weight: 100;
+	}
+
+	@media (min-width: 640px) {
+		main {
+			max-width: none;
+		}
+	}
+</style>
